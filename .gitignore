@@ -1,0 +1,9 @@
+node_modules/
+# Ignorar os arquivos CSS do Bootstrap
+/bootstrap/css/*.css
+
+# Ignorar os arquivos JS do Bootstrap
+/bootstrap/js/*.js
+
+# Ignorar os arquivos JS do jQuery
+/jquery/js/*.js

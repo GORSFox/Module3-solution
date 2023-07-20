@@ -1,0 +1,60 @@
+/* Adicione um estilo para o corpo da página para que a largura não exceda o tamanho da viewport */
+body {
+    overflow-x: hidden;
+  }
+  
+  /* Estilo para o cabeçalho e logotipo */
+  #header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0; /* Remova a margem inferior para que o cabeçalho fique mais perto do menu */
+  }
+  
+  .navbar-brand h1 {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 15px 0; /* Aumente a margem superior e inferior para separar o logotipo do cabeçalho */
+  }
+  
+  /* Estilo para o menu de navegação */
+  #nav-list {
+    margin-top: 15px; /* Adicione uma margem superior para separar o menu do logotipo */
+  }
+  
+  #nav-list li {
+    display: inline-block; /* Organize os itens do menu horizontalmente */
+  }
+  
+  #nav-list li a {
+    padding: 10px 20px; /* Adicione preenchimento para os itens do menu */
+    color: #fff; /* Defina a cor do texto dos itens do menu como branco */
+    text-decoration: none;
+  }
+  
+  #nav-list li a:hover,
+  #nav-list li a:focus {
+    background-color: #333; /* Adicione um efeito de hover/foco com uma cor de fundo diferente */
+  }
+  
+  /* Estilo para a seção "Our Menu" */
+  .main-title {
+    margin-top: 100px; /* Aumente a margem superior para centralizar o título */
+  }
+  
+  /* Estilo para a seção do menu */
+  .menu {
+    padding: 50px 0; /* Adicione preenchimento para separar o conteúdo das bordas */
+  }
+  
+  .menu-item {
+    margin-bottom: 30px; /* Adicione uma margem inferior entre os itens do menu */
+  }
+  
+  /* Estilo para o rodapé (seção alta) */
+  .footer {
+    padding: 30px 0; /* Adicione preenchimento para separar o conteúdo das bordas */
+    background-color: #f4f4f4; /* Adicione uma cor de fundo para distinguir o rodapé */
+  }
+  
